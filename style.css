@@ -97,6 +97,18 @@ colors
   overflow: hidden;
 }
 
+.vimg {
+  width: 130px;
+  height: 80px;
+}
+
+@media (max-width: 576px) {
+  .vimg {
+    width: 80vw;
+    height: 40vh;
+  }
+}
+
 .no-btn {
   background-color: #ffce39;
   color: white;
